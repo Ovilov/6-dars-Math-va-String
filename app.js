@@ -85,21 +85,46 @@ console.log(ism.length);
 
 ////////////////////////////////////////////////
 
-let string1 = "CODE";
+// let string1 = "CODE";
 
-let paddedString = string1.padEnd(10, "*");
+// let paddedString = string1.padEnd(10, "*");
 
-console.log(paddedString);
+// console.log(paddedString);
 
 ////////////////////////////////////////////////////////
 
-let myNumber = Number(prompt("Enter you number : "));
-let ramdomNumber = Math.trunc(10 * Math.random()) + 1;
+// let myNumber = Number(prompt("Enter you number : "));
+// let ramdomNumber = Math.trunc(10 * Math.random()) + 1;
 
-if (myNumber == ramdomNumber) {
-  console.log("Siz topdingiz !");
-} else {
-  console.log(
-    `Afsus siz  ${myNumber} kiritdingiz. Kompyuter chiqargan son :  ${ramdomNumber}`
-  );
-}
+// if (myNumber == ramdomNumber) {
+//   console.log("Siz topdingiz !");
+// } else {
+//   console.log(
+//     `Afsus siz  ${myNumber} kiritdingiz. Kompyuter chiqargan son :  ${ramdomNumber}`
+//   );
+// }
+
+///////////////////////////////////////////////////
+
+// const area = 7.9;
+// console.log(Math.round(area));
+// console.log(Math.floor(area));
+
+// const minus = -7.9;
+// console.log(Math.ceil(minus));
+// console.log(Math.floor(minus));
+
+/////////////////////////////
+
+// const area = 7.9;
+// const minus = -7.9;
+
+// console.log(Math.trunc(minus));
+// console.log(Math.trunc(area));
+
+//////////////////////////////
+
+let ramdomNumber = Math.trunc(10 * Math.random()) + 1;
+console.log(ramdomNumber);
+
+/////////////////////////////
